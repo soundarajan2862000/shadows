@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login-Shadows Infinity</title>
+    <style> 
+        label {margin-right:20px;}
+        body {
+          background-image: url('Texture-background-image.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        .black {
+            background-color: rgba(0, 0, 0, 0.281);
+        }
+        p {
+            font-family: cursive;
+        }
+        .txtbox { 
+            border-color:#cccccc; 
+            padding:5px; font-size:17px; 
+            text-align:center; 
+            border-width:4px; 
+            border-radius:10px; 
+            border-style:outset; 
+            text-shadow:0px 0px 0px rgba(42,42,42,.75); 
+            box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+            font-style:italic; font-family:serif;  
+        } 
+        .txtbox:focus { outline:none; }
+        .signin {
+            box-shadow: 3px 4px 0px 0px #1564ad;
+            background:linear-gradient(to bottom, #79bbff 5%, #449ffa 100%);
+            background-color:#79bbff;
+            border-radius:5px;
+            border:1px solid #337bc4;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:17px;
+            font-weight:bold;
+            font-style:italic;
+            padding:12px 44px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #528ecc;
+        }
+        .signup:hover {
+            background:linear-gradient(to bottom, #449ffa 5%, #79bbff 100%);
+            background-color:#449ffa;
+        }
+        .signup:active {
+            position:relative;
+            top:1px;
+        }
+        #footerlogo{
+            display: inline-block;
+            height: 50px; 
+            -align: center;
+            transition: all 0.6s; 
+            padding-left: 5px; 
+            padding-right: 5px; 
+            padding-top: 10px;
+            line-height: 50px;
+        }
+        #footer img:hover {
+            background: rgba(0, 0, 0, 0.671); 
+        }
+    #footer{
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.596);
+            height: 70px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <center><div>
+    	<div style="background-color: rgba(192, 192, 192, 0.589);"><hr>
+    <center><h1>To know the countless informations which are like a shadow with us</h1></center><hr></div>
+        <center><img src="Infinity Shadows.png" width=200>
+        <image src="i.png" width=300 ></image></center>
+        <p>Hey guys,</p>
+        <p>I want to make this website the best knowledge gaining platform for you.
+        So if you have experienced any issues with any of the part in
+        my website be sure to use the form below to let me know so I 
+        can fix it. If you have no issues then just ignore this and keep going!</p>
+        <p><br>
+        <div class=black><form action="mailto:aswanthpalanisamy@gmail.com" method="POST" enctype="text/plain">
+            <p><b>Name</b></p>
+            <input type="text" name=Name class="txtbox" placeholder="Enter your name" required autocomplete="off"><br>
+            <p><b>Email</b></p>
+            <input type="email" name=Email class="txtbox" placeholder="Enter your email" required autocomplete="off"><br>
+            <p><b>Your Feedback</b></p>
+            <textarea name="Feedback" class="txtbox" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" class="signin"><br><br>
+            <a href="contact.html" style="text-decoration: none; color: darkblue; font-family: cursive;">Contact Admin</a><br><br>            
+        </form></div>
+    </div></center></center>
+    <footer>
+        <div id=footer>
+            <center>
+                <img id=footerlogo src="social-instagram-new-circle-512.png">
+                <img id=footerlogo src="Facebook-128.png">
+                <img id=footerlogo src="social-twitter-circle-128.png">
+            </center>
+        </div>
+    </footer>
+</body>
+</html>
